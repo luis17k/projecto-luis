@@ -1,0 +1,23 @@
+installed.packages(ggplot2)
+installed.packages("ggplot2")
+library(ggplot2)
+install.packages("devtools")
+plot6 <- ggplot(data=angbalt, aes(year, emissions, col=fips))
+plot6+geom_point()+geom_segment(aes(x=year[1],y=emissions[1],xend=year[2],yend=emissions[2], colour="Baltimore"))+
+geom_point()+geom_segment(aes(x=year[2],y=emissions[2],xend=year[3],yend=emissions[3], colour="Baltimore"))+
+geom_point()+geom_segment(aes(x=year[3],y=emissions[3],xend=year[4],yend=emissions[4], colour="Baltimore"))+
+geom_point()+geom_segment(aes(x=year[5],y=emissions[5],xend=year[6],yend=emissions[6], colour="Los Angeles"))+
+geom_point()+geom_segment(aes(x=year[6],y=emissions[6],xend=year[7],yend=emissions[7], colour="Los Angeles"))+
+geom_point()+geom_segment(aes(x=year[7],y=emissions[7],xend=year[8],yend=emissions[8], colour="Los Angeles"))+
+theme_bw()+
+labs(x="years", y="Total emissions", title = "Vehicle emissions"
+45
+4
+insertMethod(methods(rel(x)))
+install.packages("devtoolbox")
+install.packages("ggplot2")
+install.packages("ggplot2")
+install.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+install.packages("devtools")
